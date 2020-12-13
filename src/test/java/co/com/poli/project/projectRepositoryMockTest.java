@@ -45,7 +45,7 @@ public class projectRepositoryMockTest {
         List<Project> projectList =projectRepository.findAll();
 
 
-        Assertions.assertThat(projectList.size()).isEqualTo(2);
+        Assertions.assertThat(projectList.size()).isEqualTo(4);
 
     }
 
